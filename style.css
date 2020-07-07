@@ -6,9 +6,29 @@ border-radius: 10px;
 background-color: black;
 color: white;
 padding: 10px 20px;
+border:2px solid black;
+}
+.btn-buy-now:hover{
+    border-radius: 10px;
+    background-color:white;
+    color:black;
+    padding: 10px 20px; 
+    font-weight: 700; 
+    border:2px solid black;
 }
 .carousel-indicators li{
-    background-color: orange;
+    background-color:grey;
+    height: 8px;
+    width: 16px;
+    border: none;
+    border-radius: 15px;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(to left, #ffd019,#ffb429);
+    height: 8px;
+    width: 16px;
+    border: none;
+    border-radius: 15px;
 }
 .section-header{
     font-size: 20px;
@@ -42,4 +62,14 @@ padding: 10px 20px;
 .categories-item img{
     vertical-align: none;
     width: 100%;
+}
+.cat-1, .cat-2, .cat-3{
+    border: none;
+    box-shadow: 5px 5px 20px lightgray;
+    margin-bottom: 30px;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
 }
